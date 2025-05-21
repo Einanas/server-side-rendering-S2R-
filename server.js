@@ -38,6 +38,7 @@ app.set('views', './views')
 
 // Maak een GET route voor de index (meestal doe je dit in de root, als /)
 app.get('/', async function (request, response) {
+  
    // Render index.liquid uit de Views map
    // Geef hier eventueel data aan mee
    response.render('index.liquid')
